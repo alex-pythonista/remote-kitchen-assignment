@@ -3,6 +3,7 @@
 ### Table of Content
 - Task List
 - Project Installation Guide
+- Import `Remote-kitchen-assignment.postman_collection.json` on Postman to test the APIs.
 - Dummy User Credentials 
 
 ### Task List
