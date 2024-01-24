@@ -3,7 +3,6 @@
 ### Table of Content
 - Task List
 - Project Installation Guide
-- Import `Remote-kitchen-assignment.postman_collection.json` on Postman to test the APIs.
 - Dummy User Credentials 
 
 ### Task List
@@ -44,6 +43,7 @@ The goal is to create a simple Django backend where users can manage restaurants
 docker compose up --build
 ```
 3. Go to [localhost:8000](http://localhost:8000).
+4. Import `Remote-kitchen-assignment.postman_collection.json` on Postman to test the APIs.
 
 ### Dummy User Credentials 
 
