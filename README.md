@@ -4,7 +4,7 @@ The goal is to create a simple Django backend where users can manage restaurants
 # Task list
 
 **User and Auth**
-- [ ] Extend the user model to include necessary fields for user profiles.
+- [x] Extend the user model to include necessary fields for user profiles.
 - [ ] Update permissions to allow owners and employees to manage orders and payments.
 
 **Restaurant and menu**
