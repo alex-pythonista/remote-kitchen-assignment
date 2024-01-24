@@ -1,15 +1,21 @@
 from django.db import models
 from django.contrib.auth import get_user_model
+from django.contrib.auth.models import AbstractUser
 
-# using the default user model
-User = get_user_model()
-
+class User(AbstractUser):
+    USER_TYPE = (
+        ("OWNER", "OWNER"),
+        ("EMPLOYEE", "EMPLOYEE"),
+        ("CUSTOMER", "CUSTOMER"),
+    )
+    user_type = models.CharField(max_length=100, choices=USER_TYPE)
+    
 
 class OwnerProfile(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     phone_number = models.CharField(max_length=15, blank=True, null=True)
     license_no = models.IntegerField(blank=True, null=True)
-    passport_no = models.IntegerField(blank=True, null=True)
+    passport_no = models.CharField(max_length=15, blank=True, null=True)
 
     def __str__(self) -> str:
         return self.user.username

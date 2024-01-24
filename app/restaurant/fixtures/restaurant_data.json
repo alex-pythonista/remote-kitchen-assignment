@@ -1,0 +1,169 @@
+[
+{
+  "model": "restaurant.restaurant",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "restaurant_name": "Restaurant 1",
+    "address": "218/3B, Eastern Avenue, NY",
+    "hotline_number": "16226",
+    "opening_hours": "Monday: 9:00 AM - 6:00 PM\r\nTuesday: 9:00 AM - 6:00 PM\r\nWednesday: 9:00 AM - 6:00 PM\r\nThursday: 9:00 AM - 8:00 PM\r\nFriday: 9:00 AM - 8:00 PM\r\nSaturday: 10:00 AM - 4:00 PM\r\nSunday: Closed",
+    "managers": [
+      1
+    ]
+  }
+},
+{
+  "model": "restaurant.restaurant",
+  "pk": 2,
+  "fields": {
+    "owner": 2,
+    "restaurant_name": "Restaurant 2",
+    "address": "H61, Block A, NY",
+    "hotline_number": "16559",
+    "opening_hours": "Monday: 9:00 AM - 6:00 PM\r\nTuesday: 9:00 AM - 6:00 PM\r\nWednesday: 9:00 AM - 6:00 PM\r\nThursday: 9:00 AM - 8:00 PM\r\nFriday: 9:00 AM - 8:00 PM\r\nSaturday: 10:00 AM - 4:00 PM\r\nSunday: Closed",
+    "managers": [
+      2
+    ]
+  }
+},
+{
+  "model": "restaurant.restaurant",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "restaurant_name": "Restaurant 3",
+    "address": "some address",
+    "hotline_number": "16229",
+    "opening_hours": "",
+    "managers": [
+      1
+    ]
+  }
+},
+{
+  "model": "restaurant.menu",
+  "pk": 1,
+  "fields": {
+    "restaurant": 1,
+    "name": "Thai Cusine",
+    "details": "Thai soup, chicken fry and many more"
+  }
+},
+{
+  "model": "restaurant.menu",
+  "pk": 2,
+  "fields": {
+    "restaurant": 1,
+    "name": "Indian Cusine",
+    "details": "Curry, Butter Chicken and many more"
+  }
+},
+{
+  "model": "restaurant.menu",
+  "pk": 3,
+  "fields": {
+    "restaurant": 2,
+    "name": "Burgers",
+    "details": "Cheeseburger, double trouble and many more"
+  }
+},
+{
+  "model": "restaurant.menu",
+  "pk": 4,
+  "fields": {
+    "restaurant": 2,
+    "name": "Pizzas",
+    "details": "BBQ Meat, Sausage and many more"
+  }
+},
+{
+  "model": "restaurant.menu",
+  "pk": 5,
+  "fields": {
+    "restaurant": 3,
+    "name": "Nanny Nachos",
+    "details": "BBQ Nachos, regular nachos and more"
+  }
+},
+{
+  "model": "restaurant.item",
+  "pk": 1,
+  "fields": {
+    "menu": 1,
+    "item_name": "Chicken Soup",
+    "description": "Chicken, corn, shrimp",
+    "price": "99.69"
+  }
+},
+{
+  "model": "restaurant.item",
+  "pk": 2,
+  "fields": {
+    "menu": 1,
+    "item_name": "Chicken Fry",
+    "description": "Masala, Honey Mustard Sauce",
+    "price": "56.00"
+  }
+},
+{
+  "model": "restaurant.item",
+  "pk": 3,
+  "fields": {
+    "menu": 2,
+    "item_name": "Butter Chicken",
+    "description": "Chicken, butter",
+    "price": "120.56"
+  }
+},
+{
+  "model": "restaurant.item",
+  "pk": 4,
+  "fields": {
+    "menu": 3,
+    "item_name": "Cheeseburger",
+    "description": "Cheese, chicken, bbq sauce",
+    "price": "12.00"
+  }
+},
+{
+  "model": "restaurant.item",
+  "pk": 5,
+  "fields": {
+    "menu": 3,
+    "item_name": "Beef Burger",
+    "description": "beef, cheese",
+    "price": "30.50"
+  }
+},
+{
+  "model": "restaurant.item",
+  "pk": 6,
+  "fields": {
+    "menu": 4,
+    "item_name": "BBQ Meaty Pizza",
+    "description": "Chicken, Cheese, Sauce",
+    "price": "50.56"
+  }
+},
+{
+  "model": "restaurant.item",
+  "pk": 7,
+  "fields": {
+    "menu": 4,
+    "item_name": "Cheezza",
+    "description": "Cheese, Mashroom",
+    "price": "75.50"
+  }
+},
+{
+  "model": "restaurant.item",
+  "pk": 8,
+  "fields": {
+    "menu": 5,
+    "item_name": "Big Boy BBQ Nachos",
+    "description": "BBQ Sauce, Chicken, Nachos",
+    "price": "23.00"
+  }
+}
+]
