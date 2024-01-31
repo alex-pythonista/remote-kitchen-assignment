@@ -1,4 +1,4 @@
-# remote-kitchen-assignment
+# remote-kitchen-assignment [PASSED]
 
 ### Table of Content
 - Task List
